@@ -1,0 +1,3 @@
+# Structs and other custom types
+
+Start typing here...

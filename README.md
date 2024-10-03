@@ -1,2 +1,2 @@
-# VJASS-manual
-Original VJASS manual
+# JassHelper manual
+Original JassHelper manual

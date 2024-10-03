@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="JassHelper"
+                 name="JassHelper"
+                 start-page="JassHelper.md">
+
+    <toc-element topic="JassHelper.md">
+        <toc-element topic="vJass.md">
+            <toc-element topic="Jass-syntax-mods.md">
+                <toc-element topic="Global-declaration-Freedom.md"/>
+                <toc-element topic="Native-declaration-Freedom.md"/>
+                <toc-element topic="Debug-preprocessor.md"/>
+                <toc-element topic="Local-variables-shadowing.md"/>
+                <toc-element topic="Patch-1-24-return-bug-false-positive-fixer.md"/>
+            </toc-element>
+            <toc-element topic="Entry-preprocessors.md">
+                <toc-element topic="Import-external-script-files.md"/>
+                <toc-element topic="Zinc-preprocessor.md"/>
+                <toc-element topic="No-vjass.md"/>
+            </toc-element>
+            <toc-element topic="Libraries-and-Scopes.md">
+                <toc-element topic="Static-ifs.md"/>
+                <toc-element topic="Private-members.md"/>
+            </toc-element>
+            <toc-element topic="TextMacros.md"/>
+            <toc-element topic="Structs-and-other-custom-types.md"/>
+            <toc-element topic="Storage-space-enhancements.md"/>
+            <toc-element topic="Jass-syntax-extensions.md"/>
+        </toc-element>
+        <toc-element topic="Installation.md"/>
+        <toc-element topic="Usage.md"/>
+    </toc-element>
+</instance-profile>
