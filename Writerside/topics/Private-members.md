@@ -80,7 +80,7 @@ variables/functions, so you should avoid to use double `__` in your human-declar
 recognize preprocessor-generated identifiers is useful when reading the output file (for example when PJass returns
 syntax errors).
 
-In order to use private members `ExecuteFunc` or real value change events you have to use SCOPE_PRIVATE (see bellow)
+In order to use private members `ExecuteFunc` or real value change events you have to use [SCOPE_PRIVATE](SCOPE-PREFIX-and-SCOPE-PRIVATE.md).
 
 > Scopes support `initializer` just like libraries, there is a difference in implementation and it is that they use
 > a normal call rather than an ExecuteFunc call, if you need a heavy process to init a scope, better use a library

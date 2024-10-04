@@ -1,3 +1,0 @@
-# TextMacros
-
-Start typing here...

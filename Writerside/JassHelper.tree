@@ -23,13 +23,35 @@
             <toc-element topic="Libraries-and-Scopes.md">
                 <toc-element topic="Static-ifs.md"/>
                 <toc-element topic="Private-members.md"/>
+                <toc-element topic="Public-members.md"/>
+                <toc-element topic="Nested-scopes.md"/>
+                <toc-element topic="SCOPE-PREFIX-and-SCOPE-PRIVATE.md"/>
+                <toc-element topic="keyword.md"/>
             </toc-element>
-            <toc-element topic="TextMacros.md"/>
-            <toc-element topic="Structs-and-other-custom-types.md"/>
+            <toc-element topic="Text-Macros.md"/>
+            <toc-element topic="Structs.md">
+                <toc-element topic="Declaring-structs.md"/>
+                <toc-element topic="Creating-and-destroying-structs.md"/>
+                <toc-element topic="Struct-usage.md"/>
+                <toc-element topic="Instance-members.md"/>
+                <toc-element topic="Globals-of-struct-types.md"/>
+                <toc-element topic="Static-members.md"/>
+                <toc-element topic="public-private-Structs.md"/>
+                <toc-element topic="Methods.md"/>
+                <toc-element topic="Encapsullation.md"/>
+                <toc-element topic="Static-methods.md"/>
+                <toc-element topic="The-onDestroy-method.md"/>
+                <toc-element topic="The-onInit-method.md"/>
+                <toc-element topic="Interfaces.md"/>
+            </toc-element>
             <toc-element topic="Storage-space-enhancements.md"/>
             <toc-element topic="Jass-syntax-extensions.md"/>
         </toc-element>
         <toc-element topic="Installation.md"/>
+        <toc-element topic="Updating.md"/>
         <toc-element topic="Usage.md"/>
+        <toc-element topic="Uninstalling.md"/>
+        <toc-element topic="Credits-and-thanks.md"/>
+        <toc-element topic="Changelog.md"/>
     </toc-element>
 </instance-profile>
