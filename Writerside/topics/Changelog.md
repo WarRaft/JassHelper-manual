@@ -165,7 +165,7 @@
 - Important: Removed virus that sneaked into some hidden folder inside the source tree
 - destroy can get replaced inside a struct
 - Added a deallocate method that works like allocate
-- Added static versions of the name and name= operators
+- Added static versions of the `name` and `name=` operators
 - Added `==` overloading (and `!=` for that matter)
 - Zinc: add operator `==` to grammar
 
@@ -175,7 +175,7 @@
 - Added optional library requirements
 - Added Zinc.
 
-## 0.9.K.0
+## 0.9.K.0 {id="0.9.K.0"}
 
 - Variable shadowing is now part of correct vJass syntax. Compiler guarantees (or at least should) that there
   won't be global-local conflicts in the compiled jass code.
@@ -352,17 +352,16 @@
 - Added stub methods.
 - Added super.
 
-## 0.9.E.1
+## 0.9.E.1 {id="0.9.E.1"}
 
 - Fixed issue with operator priority in result code of using 2D arrays.
 - Fixed compile error caused by .execute on static methods with arguments.
 - Fixed an usual chance to incorrectly inline return bug exploiters.
 - Single-line return bug exploiters now recognized as non-state changing functions by the inliner (Increases
   chance to inline certain functions).
-
 - dynamic array declarations now report garbage code after the end of the declaration.
 - Fixed a bug with scope initializers making a next library unable to have nested scopes.
-- Array structs can now have a max size specifier after "array".
+- Array structs can now have a max size specifier after `array`.
 - Fixed a readme bug, it incorreclty stated the command line arguments order.
 
 ## 0.9.E.0

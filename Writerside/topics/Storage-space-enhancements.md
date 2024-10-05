@@ -1,3 +1,0 @@
-# Storage space enhancements
-
-Start typing here...

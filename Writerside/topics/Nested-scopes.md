@@ -88,7 +88,7 @@ library nestedtest
 endlibrary
 ```
 
-It does kind of the same thing, but since the child&apos;s `N` was declared before the parent&apos;s the parser no
+It does kind of the same thing, but since the child's `N` was declared before the parent&apos;s the parser no
 longer
 gets in a confusion.
 

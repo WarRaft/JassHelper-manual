@@ -43,9 +43,39 @@
                 <toc-element topic="The-onDestroy-method.md"/>
                 <toc-element topic="The-onInit-method.md"/>
                 <toc-element topic="Interfaces.md"/>
+                <toc-element topic="Operator-making.md"/>
+                <toc-element topic="Extending-structs.md"/>
+                <toc-element topic="Stub-methods.md"/>
+                <toc-element topic="super.md"/>
+                <toc-element topic="Dynamic-arrays.md"/>
+                <toc-element topic="Array-members.md"/>
+                <toc-element topic="Delegate.md"/>
+                <toc-element topic="thistype.md"/>
+                <toc-element topic="Module.md"/>
+                <toc-element topic="Functions-as-objects.md"/>
+                <toc-element topic="Function-interfaces.md"/>
+                <toc-element topic="Typecast.md"/>
+                <toc-element topic="Method-function-name.md"/>
+                <toc-element topic="Method-exists.md"/>
+                <toc-element topic="Array-structs.md"/>
             </toc-element>
-            <toc-element topic="Storage-space-enhancements.md"/>
-            <toc-element topic="Jass-syntax-extensions.md"/>
+            <toc-element topic="Keys.md"/>
+            <toc-element topic="Storage-enhancements.md">
+                <toc-element topic="Sized-arrays.md"/>
+                <toc-element topic="2D-arrays.md"/>
+                <toc-element topic="Structs-with-more-index-space.md"/>
+                <toc-element topic="Dynamic-arrays-with-more-index-space.md"/>
+            </toc-element>
+            <toc-element topic="Jass-syntax-extensions.md">
+                <toc-element topic="Colon.md"/>
+                <toc-element topic="Delimited-comments.md"/>
+            </toc-element>
+            <toc-element topic="hook.md"/>
+            <toc-element topic="inject.md"/>
+            <toc-element topic="Loading-structs-from-SLK-files.md"/>
+            <toc-element topic="Script-optimization.md"/>
+            <toc-element topic="External-Tools.md"/>
+            <toc-element topic="Linebreak-fixer.md"/>
         </toc-element>
         <toc-element topic="Installation.md"/>
         <toc-element topic="Updating.md"/>

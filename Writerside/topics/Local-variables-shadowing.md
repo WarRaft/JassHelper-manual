@@ -1,6 +1,7 @@
 # Local variables shadowing
 
-Starting with version `0.9.K.0`, local variable shadowing is part of vJass syntax, unlike Jass syntax in which it has
+Starting with version [](Changelog.md#0.9.K.0), local variable shadowing is part of vJass syntax, unlike Jass syntax in
+which it has
 always been a problem. Up to patch `1.24`, it was not even possible to shadow more than one variable, and it turned the
 whole map script into case-insensitive. These glitches were apparently fixed around patch `1.24`, but they were fixed
 barely to a level of helping GUI users do local var tricks. Issues persist, and the issues are of the kind that could
