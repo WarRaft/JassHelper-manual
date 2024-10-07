@@ -77,6 +77,34 @@
             <toc-element topic="External-Tools.md"/>
             <toc-element topic="Linebreak-fixer.md"/>
         </toc-element>
+        <toc-element topic="Zinc.md">
+            <toc-element topic="Because-it-is-good-for-your-brains.md"/>
+            <toc-element topic="Enough-propaganda-how-do-I-use-it.md">
+                <toc-element topic="zinc-endzinc-preprocessor.md"/>
+                <toc-element topic="import-preprocessor.md"/>
+                <toc-element topic="Syntax-basics.md"/>
+                <toc-element topic="library.md"/>
+                <toc-element topic="public-or-private.md"/>
+                <toc-element topic="Globals.md"/>
+                <toc-element topic="Functions.md"/>
+                <toc-element topic="assignment.md"/>
+                <toc-element topic="if.md"/>
+                <toc-element topic="Logical-operations.md"/>
+                <toc-element topic="Arithmetic-assignments.md"/>
+                <toc-element topic="static-if.md"/>
+                <toc-element topic="while.md"/>
+                <toc-element topic="for.md"/>
+                <toc-element topic="break.md"/>
+                <toc-element topic="debug.md"/>
+                <toc-element topic="local-variables.md"/>
+                <toc-element topic="Zinc-structs.md"/>
+                <toc-element topic="Zinc-Dynamic-arrays.md"/>
+                <toc-element topic="Function-pointers-interfaces.md"/>
+                <toc-element topic="Anonymous-functions.md"/>
+                <toc-element topic="Anonymous-methods.md"/>
+            </toc-element>
+            <toc-element topic="The-small-print.md"/>
+        </toc-element>
         <toc-element topic="Installation.md"/>
         <toc-element topic="Updating.md"/>
         <toc-element topic="Usage.md"/>

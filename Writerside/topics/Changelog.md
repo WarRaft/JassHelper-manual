@@ -169,11 +169,11 @@
 - Added `==` overloading (and `!=` for that matter)
 - Zinc: add operator `==` to grammar
 
-## 0.9.Z.0
+## 0.9.Z.0 {id="0.9.Z.0"}
 
 - Added static ifs
 - Added optional library requirements
-- Added Zinc.
+- Added [](Zinc.md).
 
 ## 0.9.K.0 {id="0.9.K.0"}
 
