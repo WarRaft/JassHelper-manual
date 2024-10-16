@@ -8,14 +8,15 @@ readme file.
 
 ## Grimoire
 
-Simply use we.bat to run grimoire, then you'd have to disable the syntax checker and enable the map compiler using the
+Simply use `we.bat` to run grimoire, then you'd have to disable the syntax checker and enable the map compiler using the
 grimoire menus. To use debug mode simply use compiler\\compiler debug mode.
 
 Currently, compiler is not called when using testmap, so you must save the map before using the testmap button.
 
 ## Command line
 
-jasshelper.exe combined with the `sfmpq.dll` and pjass is able to compile maps without any aid from an editor hack, you
+`jasshelper.exe` combined with the `sfmpq.dll` and pjass is able to compile maps without any aid from an editor hack,
+you
 might want to know about this if you are on Linux (where WINE allows you to use WorldEditor and jasshelper but not
 grimoire) or for example if you cannot run grimoire for whatever reason.
 
@@ -26,7 +27,7 @@ jasshelper.exe <path\_to\_common.j> <path\_to\_blizzard.j> <path\_to\_map.w3x>
 ```
 
 This will make jasshelper to process the source map, and update the map with a new compiled script. You can extract
-common.j and blizzard.j from the scripts folder in `war3patch.mpq`.
+`common.j` and `blizzard.j` from the scripts folder in `war3patch.mpq`.
 
 If instead of three arguments you pass four file arguments to the program, the behavior changes:
 
@@ -52,7 +53,7 @@ turns --nooptimize on
 this option.
 
 --nooptimize
-: Disables optimization, refer to the `[script optimization](#opt)` section for more information.
+: Disables optimization, refer to the [script optimization](Script-optimization.md) section for more information.
 
 --scriptonly
 : This one changes the behavior of the next arguments, it forces you to provide four files:
@@ -63,9 +64,9 @@ This syntax requires no map to be provided, will simply evaluate the input .j fi
 necessary. If the compiling is successful, jasshelper will write the output script to the file path you provided.
 
 --warcity
-: This setting will automatically turn --scriptonly on, it makes jasshelper evaluate the input script
+: This setting will automatically turn `--scriptonly` on, it makes jasshelper evaluate the input script
 file as if it was a "warcity script file", WarCiTy is a program that converts a map's custom trigger data into a
-special sort of .j script. This setting will simply make jasshelper evaluate only the //! import and //! novjass
+special sort of `.j` script. This setting will simply make jasshelper evaluate only the `//! import` and `//! novjass`
 preprocessors, it will also prevent the adition of guide comments specifying it just imported the file. There is no
 syntax checking feature for this mode.
 
@@ -81,9 +82,8 @@ file assuming it is a single zinc source file. It will then output the compiled 
 file arguments provided.
 
 --showerrors
-: Shows the previous syntax error(s) (Without compiling).
-
-`clijasshelper.exe` behaves exactly as jasshelper.exe but it does not use/need windows GUI, (it
+: Shows the previous syntax error(s) (Without compiling). `clijasshelper.exe` behaves exactly as `jasshelper.exe` but it
+does not use/need windows GUI, (it
 is still a windows-WINE app though), it may be useful sometimes (for example if you want to use jasshelper from a ssh
-sesion), it just outputs stuff to stdout, if for some reason stdout does not work, it will output to stdout.txt in the
+sesion), it just outputs stuff to stdout, if for some reason stdout does not work, it will output to `stdout.txt` in the
 work folder.
